@@ -19,7 +19,7 @@ If thats your first time using this project, you must get client ID and client s
 To do this:
 
 1) Go to the https://developer.spotify.com/dashboard/ page. (If you don't have a spotify account, you have to create one.)
-2) Click "New App" button on the right side and enter your app information:
+2) Click "New App" button on the right side and enter your app information:<br>
   App name:        (your app name) <br>
   App description: (your app description) <br>
   Redirect URIs:   ("spotify.com") <br>
