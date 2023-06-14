@@ -8,7 +8,7 @@ You can download your Spotify playlists directly from YouTube. The process is si
 ## Installation
 First, make sure about python ,pip and ffmpeg is installed on your system.
 
-FFMPEG : https://ffmpeg.org/download.html
+Download FFMPEG : https://ffmpeg.org/download.html
 
 Than, go to the terminal and:
 ```
