@@ -20,5 +20,5 @@ def songDownload(name,artist,playlist_name):
         "-i",
         newPath,
         os.path.join(path,f"{name}.mp3")
-    ])
+    ], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     os.remove(newPath)
