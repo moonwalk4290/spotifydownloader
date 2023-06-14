@@ -1,7 +1,7 @@
 # spotifydownloader
 
 ## The Goal of the Project
-You can downlaod your Spotify playlists directly from YouTube. The process is simple, you just need copy your playlist url and paste it.
+You can download your Spotify playlists directly from YouTube. The process is simple, you just need copy your playlist url and paste it onto terminal.
 
 ---
 
@@ -41,7 +41,7 @@ Enter your playlist url: ("Enter your spotify playlist url")
 
 ```
 
-It automatically  downloads your songs.
+It automatically downloads your songs.
 
 ---
 
