@@ -17,6 +17,19 @@ def getToken():
                     )
     return result.json()["access_token"]
 
+
+def getSongName(url):
+    uri = url[31:56]
+    token = getToken()
+    result = requests.get(
+        f'https://api.spotify.com/v1/tracks/{uri}',
+        headers= {"authorization":f"Bearer {token}"},
+    )
+    trackName = result.json()["name"]
+    artist = result.json()["artists"][0]["name"]
+    return trackName,artist
+
+
 def getPlaylistInformation(url):
     uri = url[34:56]
     token = getToken()
@@ -29,12 +42,13 @@ def getPlaylistInformation(url):
     return uri,playlistName,songAmount
 
 
-def getSongName(uri,index):
+def getSongNameonPlaylist(uri,index):
     token = getToken()
     result = requests.get(
         f'https://api.spotify.com/v1/playlists/{uri}',
         headers= {"authorization":f"Bearer {token}"},
     )
-    trackName = result.json()["tracks"]["items"][index]["track"]["name"]
-    artist = result.json()["tracks"]["items"][index]["track"]["artists"][0]["name"]
+    track = result.json()["tracks"]["items"][index]["track"]
+    trackName = track["name"]
+    artist = track["artists"][0]["name"]
     return trackName, artist
