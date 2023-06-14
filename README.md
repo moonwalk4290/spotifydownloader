@@ -47,3 +47,9 @@ It automatically downloads your songs.
 ## Limitations
 - It can only download playlists right now, it can't download just one song.
 - It gives an error when you try to download a playlist includes podcast (some songs in your playlist maybe podcasts).
+
+---
+
+## Screenshots
+
+https://cdn.discordapp.com/attachments/1117901212117893193/1118404759645339658/image.png
