@@ -21,8 +21,8 @@ To do this:
 1) Go to the https://developer.spotify.com/dashboard/ page. (If you don't have a spotify account, you have to create one.)
 2) Click "New App" button on the right side and enter your app information:
   App name:        (your app name) <br>
-  App description: (your app description)
-  Redirect URIs:   ("spotify.com")
+  App description: (your app description) <br>
+  Redirect URIs:   ("spotify.com") <br>
 3) Go to your new created app and click "Settings" button.
 4) Click "View client secret" and you should see your ID and Secret.
 5) Copy them, open "spotify.py" file that you installed and paste them on ID and SECRET fields.
