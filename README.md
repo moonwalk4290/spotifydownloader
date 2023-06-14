@@ -38,11 +38,8 @@ You are now ready to use spotifydownloader.
 ```
 $ cd spotifydownloader/           => Or just go to where you installed this tool.
 $ python main.py
-
-Enter your playlist url: ("Enter your spotify playlist url")
 ```
 
-It will automatically download your songs.
 
 ---
 
@@ -53,7 +50,8 @@ It will automatically download your songs.
 
 ## Screenshots
 
-![Alt text](https://cdn.discordapp.com/attachments/1117901212117893193/1118404759645339658/image.png)
+![Alt text](https://cdn.discordapp.com/attachments/1117901212117893193/1118600131420360704/image.png)
+![Alt text](https://cdn.discordapp.com/attachments/1117901212117893193/1118600757583806555/image.png)
 
 ## Common Issues
 - There are not any common issue right now.
