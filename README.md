@@ -27,11 +27,24 @@ To do this:
 4) Click "View client secret" and you should see your ID and Secret.
 5) Copy them, open "spotify.py" file that you installed and paste them on ID and SECRET fields.
   
+You are now ready to use spotifydownloader. 
 
 ---
 
 ## Usage
 
+```
+$ cd spotifydownloader/           => Or just go to where you installed this tool.
+$ python main.py
+
+Enter your playlist url: ("Enter your spotify playlist url")
+
+```
+
+It automatically  downloads your songs.
+
 ---
 
 ## Limitations
+- It can only download playlists right now, it can't download just one song.
+- It gives an error when you try to download a playlist includes podcast (some songs in your playlist maybe podcasts).
