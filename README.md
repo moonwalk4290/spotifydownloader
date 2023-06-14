@@ -20,7 +20,7 @@ To do this:
 
 1) Go to the https://developer.spotify.com/dashboard/ page. (If you don't have a spotify account, you have to create one.)
 2) Click "New App" button on the right side and enter your app information:
-  App name:        (your app name)
+  App name:        (your app name) <br>
   App description: (your app description)
   Redirect URIs:   ("spotify.com")
 3) Go to your new created app and click "Settings" button.
