@@ -38,7 +38,6 @@ $ cd spotifydownloader/           => Or just go to where you installed this tool
 $ python main.py
 
 Enter your playlist url: ("Enter your spotify playlist url")
-
 ```
 
 It automatically downloads your songs.
