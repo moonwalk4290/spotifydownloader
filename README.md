@@ -52,4 +52,4 @@ It automatically downloads your songs.
 
 ## Screenshots
 
-https://cdn.discordapp.com/attachments/1117901212117893193/1118404759645339658/image.png
+![Alt text](https://cdn.discordapp.com/attachments/1117901212117893193/1118404759645339658/image.png)
