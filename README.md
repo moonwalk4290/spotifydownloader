@@ -47,7 +47,7 @@ It will automatically download your songs.
 ---
 
 ## Limitations
-- It gives an error when you try to download a playlist includes podcast (some songs in your playlist maybe podcasts).
+- There are not any limitation right now.
 
 ---
 
